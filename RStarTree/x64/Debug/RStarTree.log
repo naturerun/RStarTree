@@ -1,0 +1,61 @@
+﻿  RStarTree.cpp
+D:\少康资料备份\RStarTree\RStarTree\RStarTree.cpp(1278,21): warning C4267: “=”: 从“size_t”转换到“_Ty”，可能丢失数据
+D:\少康资料备份\RStarTree\RStarTree\RStarTree.cpp(1278,21): warning C4267:         with
+D:\少康资料备份\RStarTree\RStarTree\RStarTree.cpp(1278,21): warning C4267:         [
+D:\少康资料备份\RStarTree\RStarTree\RStarTree.cpp(1278,21): warning C4267:             _Ty=int
+D:\少康资料备份\RStarTree\RStarTree\RStarTree.cpp(1278,21): warning C4267:         ]
+C:\Program Files\Microsoft Visual Studio\VC\Tools\MSVC\14.51.36231\include\utility(335,16): warning C4267: “初始化”: 从“size_t”转换到“_Ty1”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\VC\Tools\MSVC\14.51.36231\include\utility(335,16): warning C4267:         with
+C:\Program Files\Microsoft Visual Studio\VC\Tools\MSVC\14.51.36231\include\utility(335,16): warning C4267:         [
+C:\Program Files\Microsoft Visual Studio\VC\Tools\MSVC\14.51.36231\include\utility(335,16): warning C4267:             _Ty1=int
+C:\Program Files\Microsoft Visual Studio\VC\Tools\MSVC\14.51.36231\include\utility(335,16): warning C4267:         ]
+  (编译源文件“RStarTree.cpp”)
+      C:\Program Files\Microsoft Visual Studio\VC\Tools\MSVC\14.51.36231\include\utility(335,16):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\少康资料备份\RStarTree\RStarTree\RStarTree.cpp(1302,20):
+          查看对正在编译的 类 模板 实例化“RStarTree<int>”的引用
+          D:\少康资料备份\RStarTree\RStarTree\RStarTree.cpp(446,1):
+          在编译 类 模板 成员函数“void RStarTree<int>::insertData(std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>> &)”时
+              D:\少康资料备份\RStarTree\RStarTree\RStarTree.cpp(1309,23):
+              请参阅 "main" 中对 "RStarTree<int>::insertData" 的第一个引用
+          D:\少康资料备份\RStarTree\RStarTree\RStarTree.cpp(475,1):
+          在编译 类 模板 成员函数“void RStarTree<int>::insert(std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>> &,RStarTreeNode<T> *,size_t,std::vector<bool,std::allocator<bool>> &)”时
+          with
+          [
+              T=int
+          ]
+          D:\少康资料备份\RStarTree\RStarTree\RStarTree.cpp(375,1):
+          在编译 类 模板 成员函数“void RStarTree<int>::re_insert(RStarTreeNode<T> *,size_t,std::vector<bool,std::allocator<bool>> &,std::vector<std::pair<RStarTreeNode<T> *,size_t>,std::allocator<std::pair<RStarTreeNode<T> *,size_t>>> &,size_t)”时
+          with
+          [
+              T=int
+          ]
+          D:\少康资料备份\RStarTree\RStarTree\RStarTree.cpp(578,1):
+          在编译 类 模板 成员函数“size_t RStarTree<int>::chooseSubTree(RStarTreeNode<T> *,std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>> &)”时
+          with
+          [
+              T=int
+          ]
+              D:\少康资料备份\RStarTree\RStarTree\RStarTree.cpp(551,18):
+              请参阅 "RStarTree<int>::findNodeInSelectedLevel" 中对 "RStarTree<int>::chooseSubTree" 的第一个引用
+              D:\少康资料备份\RStarTree\RStarTree\RStarTree.cpp(477,27):
+              请参阅 "RStarTree<int>::insert" 中对 "RStarTree<int>::findNodeInSelectedLevel" 的第一个引用
+              D:\少康资料备份\RStarTree\RStarTree\RStarTree.cpp(456,11):
+              请参阅 "RStarTree<int>::insertData" 中对 "RStarTree<int>::insert" 的第一个引用
+              D:\少康资料备份\RStarTree\RStarTree\RStarTree.cpp(1309,23):
+              请参阅 "main" 中对 "RStarTree<int>::insertData" 的第一个引用
+          D:\少康资料备份\RStarTree\RStarTree\RStarTree.cpp(968,1):
+          在编译 类 模板 成员函数“bool RStarTree<int>::getInterRect(std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>> &,std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>> &,std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>> &)”时
+          D:\少康资料备份\RStarTree\RStarTree\RStarTree.cpp(971,26):
+          查看对正在编译的函数 模板 实例化“std::pair<int,int>::pair<size_t,size_t,0>(std::pair<size_t,size_t> &&) noexcept”的引用
+  
+C:\Program Files\Microsoft Visual Studio\VC\Tools\MSVC\14.51.36231\include\utility(335,61): warning C4267: “初始化”: 从“size_t”转换到“_Ty2”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\VC\Tools\MSVC\14.51.36231\include\utility(335,61): warning C4267:         with
+C:\Program Files\Microsoft Visual Studio\VC\Tools\MSVC\14.51.36231\include\utility(335,61): warning C4267:         [
+C:\Program Files\Microsoft Visual Studio\VC\Tools\MSVC\14.51.36231\include\utility(335,61): warning C4267:             _Ty2=int
+C:\Program Files\Microsoft Visual Studio\VC\Tools\MSVC\14.51.36231\include\utility(335,61): warning C4267:         ]
+  (编译源文件“RStarTree.cpp”)
+  
+  RStarTree.vcxproj -> D:\少康资料备份\RStarTree\x64\Debug\RStarTree.exe
+  'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
+  或批处理文件。

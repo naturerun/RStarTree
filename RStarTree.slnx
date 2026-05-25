@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="RStarTree/RStarTree.vcxproj" Id="3ab540d9-a310-4cae-85e0-12fd3140f884" />
+</Solution>
